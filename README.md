@@ -1,2 +1,2 @@
 # Restaurant-website
-Restaurant-website created using HTML, CSS, Bootstrap5
+Restaurant-website created using HTML5, CSS3, Bootstrap5
