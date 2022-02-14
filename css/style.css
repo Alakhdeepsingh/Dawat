@@ -24,7 +24,25 @@
 .ap{
    flex:bold;
 }
+.services .row>*{
+   padding-right: 0;
+   padding-left: 0;
 
+}
+.services img{
+   width: 100%;
+   height: 100%;
+}
+.z{
+   height: 6600%;
+   width: 100%;
+}
+.a{
+   height: 200%;
+   width: 300%;
+   height:relative;
+   
+}
  /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 /* 
