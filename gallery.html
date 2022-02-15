@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css link  -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-capitalize" href="#">Star Restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="About.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-capitalize" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <!-- gallery section start here -->
+      <section class="main heading my-5 bg-body -p py-5">
+        <div class="text-center">
+          <h1 class=display-4>Gallery</h1>
+          <hr class="w-25 mx-auto">
+          <!-- m mtb margin -->
+          <!-- y mtb uppar aur niche  -->
+          <!-- x mtb left and right -->
+        </div>
+        <div class="container">
+          <div class="row gy-2 gx-4 my-5">
+            <div class=" col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food1.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food2.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food3.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food44.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food5.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food15.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food13.jpg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/recipe-3.jpeg" alt="gallery" class="img-fluid a">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="images/food16.jpg" alt="gallery" class="img-fluid z">
+              </figure>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <footer class="bg-secondary text-center text-white">
+        <p>@copyright Restaurant Star</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
+  </body>
+</html>

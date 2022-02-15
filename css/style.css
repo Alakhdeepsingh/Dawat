@@ -16,10 +16,10 @@
    height:8vh;
 }
 .navbar-brand{
-   font-size: 30px; 
+   font-size: 1000px; 
 }
 .nav-link{
-   font-size: 24px;
+   font-size: 18px;
 }
 .ap{
    flex:bold;
@@ -45,6 +45,9 @@
 }
 .offer_style{
    background-color:#a6dcef;
+}
+footer p{
+   margin-bottom:0;
 }
  /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
