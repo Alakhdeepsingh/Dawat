@@ -5,4 +5,4 @@
 
 • It contains a home, about, services, menu, gallery, contact and a footer. 
 
-Visit Website : https://alakhdeepsingh.github.io/Restaurant-website/  or   https://restaurantstar.netlify.app/
+Visit Website : https://alakhdeepsingh.github.io/Dawat/  or   https://restaurantstar.netlify.app/
